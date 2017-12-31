@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya');
+
+header.site-header {
+    font-family: 'Alegreya', serif;
+
+    h1 {
+        font-size: 400%;
+        margin-top: 1rem;
+
+        a {
+            color: black;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+
+    h2 {
+        font-size: 165%;
+    }
+}
+
+h1.entry-title {
+    font-size: 2.3rem;
+}
+
+
+h2.entry-title {
+    font-size: 2rem;
+}
+
+.widget {
+    margin-bottom: 2rem;
+
+    .widget-title {
+        margin-bottom: 0.5rem;
+    }
+
+    label {
+        display: none;
+    }
+}
+
+.entry-meta {
+    font-size: 90%;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.edit-link {
+    @extend .rounded;
+    background-color: $gray-900;
+    color: white;
+    font-size: 70%;
+    font-style: normal;
+    margin-left: 0.5rem;
+    padding: 0.1rem 0.5rem 0.3rem 0.5rem;
+
+    &:hover {
+        color: white;
+        text-decoration: none;
+    }
+
+    a {
+        color: white;
+
+        &:hover {
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+
+footer.entry-footer {
+    font-size: 90%;
+    font-style: italic;
+    margin-bottom: 1rem;
+}    
+
+img.featured-image {
+    float: right;
+    margin-bottom: 0.4rem;
+    margin-left: 0.4rem;
+}
+
+.comments-area {
+    font-size: 85%;
+    margin-top: 3rem;
+}
+
+.comments-title {
+//    border-bottom: 1px solid $gray-200;
+    font-size: 140%;
+}
+
+.comment-list {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+
+    .children {
+        list-style: none;
+    }
+
+    .thread-even {
+        border-top: 1px solid $gray-300;
+        margin-bottom: 1rem;
+    }
+
+    .thread-odd {
+        border-top: 1px solid $gray-300;
+        margin-bottom: 1rem;
+    }
+
+    .avatar {
+        padding: 5px;
+    }
+
+    .comment-meta {
+        margin-bottom: 0.25rem;
+    }
+}
+
+aside {
+    font-size: 85%;
+    margin-left: 1.5rem;
+
+    h3 {
+        font-size: 140%;
+    }
+}
+
+footer.site-footer {
+    border-top: 1px solid $gray-500;
+    font-size: 80%;
+}
