@@ -10466,6 +10466,15 @@ h1.entry-title {
 h2.entry-title {
   font-size: 2rem; }
 
+.entry-content h2 {
+  font-size: 1.8rem; }
+
+.entry-content h3 {
+  font-size: 1.5rem; }
+
+.entry-content h4 {
+  font-size: 1.2rem; }
+
 .widget {
   margin-bottom: 2rem; }
   .widget .widget-title {
