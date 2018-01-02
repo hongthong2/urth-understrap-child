@@ -10475,6 +10475,10 @@ h2.entry-title {
 .entry-content h4 {
   font-size: 1.2rem; }
 
+blockquote {
+  border-left: 2rem solid #e9ecef;
+  padding-left: 0.5rem; }
+
 .widget {
   margin-bottom: 2rem; }
   .widget .widget-title {

@@ -43,6 +43,11 @@ h2.entry-title {
     }
 }
 
+blockquote {
+    border-left: 2rem solid $gray-200;
+    padding-left: 0.5rem;
+}
+
 .widget {
     margin-bottom: 2rem;
 
